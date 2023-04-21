@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+  .barra.de.navegacion a{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/PraiadoRosa_043.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+
+}
+
+.caja2 {
+    font-size: 16px;
+    background-color:crimson;
+    color:black ;
+    width: 100%;
+
+    
+  }
+
+body footer{
+    background-color: cadetblue;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      max-width: 100%;
+      padding: 10px;
+      
+    }
+    header {
+      text-align: center;
+      background-color: cadetblue;
+      color: black;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: solid; 
+    }
+
+    .quienes-somos{
+        background-color:coral;
+        color: black; 
+        width: 100%;
+        height: 40px; 
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+     }
+    
+    .caja2 {
+      font-size: 16px;
+      background-color:crimson;
+      color:black ;
+  
+      
+    }
+    .contenedor-galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px;
+      margin: 20px;
+    
+    }
+
+    body footer{
+        background-color: cadetblue;
+        color: black;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    } 
+
+
+  @media screen and (min-width: 769px) {
+    .contenedor {
+      max-width: 100%;
+      padding: 10px;
+      
+    }
+    header {
+      text-align: center;
+      background-color: cadetblue;
+      color: black;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif; 
+      justify-content: center;
+      padding: 3px;
+    }
+
+    .buscador{
+        text-align: center;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .quienes-somos{
+        background-color:coral;
+        color: black; 
+        width: 100%;
+        height: 40px; 
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+     }
+    
+    .caja2 {
+      font-size: 16px;
+      background-color:crimson;
+      color:black ;
+      width: 100%;
+    
+    }
+    .contenedor-galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px;
+      margin: 20px;
+
+
+    }
+
+
+    body footer{
+        background-color: cadetblue;
+        color: black;
+        width: 100%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+
+  }
+  
